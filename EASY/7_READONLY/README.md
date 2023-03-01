@@ -89,7 +89,7 @@ type MyReadonly<T> = {
 }
 ```
 
-⭐️ 결국 `[K in keyof T]: T[K]`를 하게 되면 T와 똑같은 인텉페이스를 만드는것이다.
+⭐️ 결국 `[K in keyof T]: T[K]`를 하게 되면 T와 똑같은 인터페이스를 만드는것이다.
 
 >#### 출처
 https://github.com/type-challenges/type-challenges
